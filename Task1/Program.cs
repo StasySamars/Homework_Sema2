@@ -15,3 +15,19 @@ if (number/10 > number%10)
 }
 else
 Console.WriteLine(number%10);
+
+// генерирует в заданном диапазоне кооме последнего числа
+int num = new Random().Next(10, 100);
+Console.WriteLine(num);
+
+// Для сравнения чисел нужно их 
+//разделить первое делим второе 
+
+if (num / 10 > num % 10)
+{
+    Console.WriteLine(num / 10);
+}
+else
+{
+    Console.WriteLine(num % 10);
+}

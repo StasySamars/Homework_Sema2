@@ -4,3 +4,16 @@
 14 -> нет 
 46 -> нет 
 161 -> да*/
+
+Console.Clear();
+
+int num1 = Convert.ToInt32(Console.ReadLine());
+
+if (num1%7 == 0 && num1%23 ==0)
+{
+    Console.WriteLine("да");
+}
+else
+{
+    Console.WriteLine("нет");
+}

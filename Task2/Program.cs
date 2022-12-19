@@ -12,5 +12,8 @@ Console.WriteLine (number);
 
 int num1 = number/100;
 int num2 = number%10;
-Console.WriteLine (num1);
-Console.WriteLine (num2);
+//Console.Write (num1);
+//Console.Write (num2);
+
+Console.WriteLine ($"{num1*10+num2}");
+
