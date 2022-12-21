@@ -5,11 +5,15 @@ Console.Clear();
 Console.WriteLine("Введи число от 1 до 7, которое соответствует дням недели и узнаешь, является ли этот день выходным: ");
 int num1 = Convert.ToInt32(Console.ReadLine());
 
-if (num1 <6 )
+if (num1 < 6 && num1 > 0)
 {
     Console.WriteLine("Рабочий день");
 }
-else
+else if (num1 < 8 && num1 > 5)
 {
     Console.WriteLine("Выходной");
+}
+else
+{
+    Console.WriteLine("Введенное число не соответсвтует заданию, попробуй еще раз!");
 }
